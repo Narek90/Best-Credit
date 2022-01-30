@@ -1,0 +1,41 @@
+.App {
+  background: linear-gradient(180deg, #fff,rgba(23, 119, 23, 0.479)) ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+.start-page-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  font-family: fantasy;
+  font-size: 50px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
